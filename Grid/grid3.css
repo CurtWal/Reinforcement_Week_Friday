@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right, purple,red);
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    margin-top: 30vh;
+}
+.grid{
+    background-color: blueviolet;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large; 
+}
+.box3{
+    grid-area: 4/1/5/9;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large; 
+}
